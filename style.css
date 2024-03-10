@@ -7,3 +7,12 @@
     --cor04: #A6896F;
     --cor05: #592525;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: var(--cor04);
+}
