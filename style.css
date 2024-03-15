@@ -16,3 +16,84 @@
 body {
     background-color: var(--cor04);
 }
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor05), transparent);
+    padding: 15px;
+    height: 125px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 12px;
+    padding: 15px;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-decoration-line: overline;
+    text-decoration-color: #D9BC9A;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.589);
+
+}
+
+header h3 {
+    text-align: right;
+    color: yellow;
+    padding: 12px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.568);
+}
+
+main {
+    background-color: white;
+    margin: 0px 50px;
+    padding: 12px;
+    border-radius: 16px;
+    border: 2px solid #0000005d;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.459);
+    border-style: outset;
+}
+
+div.box{
+        background-image: url(imagens/IMG-20240309-WA0046mod01.jpg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+        background-attachment: fixed;
+        box-shadow: 2px 1px 2px #000000ad;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 45px;
+
+}
+
+div.box section {
+    background-color: rgb(128, 128, 128);
+    width: 300px;
+    border-radius: 12px;
+    border-bottom-left-radius: 45px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.548);
+}
+
+div.box > section > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+p {
+    line-height: 1.7em;
+    padding: 30px;
+    text-align: justify;
+    text-indent: 12px;
+}
+footer {
+    background-color: black;
+    color: rgb(190, 230, 110);
+    padding: 12px;
+    text-shadow: 2px 1px 2px rgba(255, 255, 255, 0.432);
+}
+
+footer p {
+    text-align: center;
+}
