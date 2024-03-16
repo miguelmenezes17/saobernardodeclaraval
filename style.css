@@ -44,6 +44,8 @@ header h3 {
     color: yellow;
     padding: 12px;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.568);
+    background-color: #d9bc9a50;
+    border-radius: 40px;
 }
 
 main {
