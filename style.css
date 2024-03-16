@@ -60,9 +60,11 @@ main {
 }
 
 p {
-    line-height: 1.7em;
+    line-height: 1.9em;
     padding: 30px;
     text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
     text-indent: 12px;
 }
 footer {
